@@ -1,0 +1,43 @@
+
+#inline * {
+    border: 2px solid;
+    display: inline-block;
+ width: 200px;
+ height: 100px;
+}
+#block *{
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    display: inline-block;
+}
+.bar{
+    font-size: 8px;
+    width: 50%;
+}
+.progress{
+    width: 10em;  /*length and units*/
+}
+#class *{
+    border:200px;
+}
+.parent{
+    background-color: rgba(0,0,0,3);
+}
+.box{
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    /*box-sizing: border-box;
+    border-style: solid;
+    border-color:lightgreen ;
+    border-width: 10px;*/
+    border: solid 10px  lightgreen;  /*no strict syntax can follow any way and position*/
+    margin: 10px;
+}
+.content{
+    background-color: white;
+    padding: 10px;
+    box-sizing:border-box;
+}
